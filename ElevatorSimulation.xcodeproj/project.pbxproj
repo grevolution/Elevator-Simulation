@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E409F0147AAAE300180A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E409EF147AAAE300180A39 /* UIKit.framework */; };
+		55E409F2147AAAE300180A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E409F1147AAAE300180A39 /* Foundation.framework */; };
+		55E409F4147AAAE300180A39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E409F3147AAAE300180A39 /* CoreGraphics.framework */; };
+		55E409FA147AAAE300180A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E409F8147AAAE300180A39 /* InfoPlist.strings */; };
+		55E409FC147AAAE300180A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E409FB147AAAE300180A39 /* main.m */; };
+		55E40A00147AAAE300180A39 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E409FF147AAAE300180A39 /* ASAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55E409EB147AAAE300180A39 /* ElevatorSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevatorSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E409EF147AAAE300180A39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55E409F1147AAAE300180A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E409F3147AAAE300180A39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55E409F7147AAAE300180A39 /* ElevatorSimulation-Info.plist */ = {isa = PBXFileReference; path = "ElevatorSimulation-Info.plist"; sourceTree = "<group>"; };
+		55E409F9147AAAE300180A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E409FB147AAAE300180A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E409FD147AAAE300180A39 /* ElevatorSimulation-Prefix.pch */ = {isa = PBXFileReference; path = "ElevatorSimulation-Prefix.pch"; sourceTree = "<group>"; };
+		55E409FE147AAAE300180A39 /* ASAppDelegate.h */ = {isa = PBXFileReference; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		55E409FF147AAAE300180A39 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E409E8147AAAE300180A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E409F0147AAAE300180A39 /* UIKit.framework in Frameworks */,
+				55E409F2147AAAE300180A39 /* Foundation.framework in Frameworks */,
+				55E409F4147AAAE300180A39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E409E0147AAAE200180A39 = {
+			isa = PBXGroup;
+			children = (
+				55E409F5147AAAE300180A39 /* ElevatorSimulation */,
+				55E409EE147AAAE300180A39 /* Frameworks */,
+				55E409EC147AAAE300180A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E409EC147AAAE300180A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E409EB147AAAE300180A39 /* ElevatorSimulation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E409EE147AAAE300180A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E409EF147AAAE300180A39 /* UIKit.framework */,
+				55E409F1147AAAE300180A39 /* Foundation.framework */,
+				55E409F3147AAAE300180A39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E409F5147AAAE300180A39 /* ElevatorSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				55E409FE147AAAE300180A39 /* ASAppDelegate.h */,
+				55E409FF147AAAE300180A39 /* ASAppDelegate.m */,
+				55E409F6147AAAE300180A39 /* Supporting Files */,
+			);
+			path = ElevatorSimulation;
+			sourceTree = "<group>";
+		};
+		55E409F6147AAAE300180A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E409F7147AAAE300180A39 /* ElevatorSimulation-Info.plist */,
+				55E409F8147AAAE300180A39 /* InfoPlist.strings */,
+				55E409FB147AAAE300180A39 /* main.m */,
+				55E409FD147AAAE300180A39 /* ElevatorSimulation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E409EA147AAAE300180A39 /* ElevatorSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E40A03147AAAE300180A39 /* Build configuration list for PBXNativeTarget "ElevatorSimulation" */;
+			buildPhases = (
+				55E409E7147AAAE300180A39 /* Sources */,
+				55E409E8147AAAE300180A39 /* Frameworks */,
+				55E409E9147AAAE300180A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElevatorSimulation;
+			productName = ElevatorSimulation;
+			productReference = 55E409EB147AAAE300180A39 /* ElevatorSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E409E2147AAAE200180A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 55E409E5147AAAE200180A39 /* Build configuration list for PBXProject "ElevatorSimulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E409E0147AAAE200180A39;
+			productRefGroup = 55E409EC147AAAE300180A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E409EA147AAAE300180A39 /* ElevatorSimulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E409E9147AAAE300180A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E409FA147AAAE300180A39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E409E7147AAAE300180A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E409FC147AAAE300180A39 /* main.m in Sources */,
+				55E40A00147AAAE300180A39 /* ASAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E409F8147AAAE300180A39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E409F9147AAAE300180A39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E40A01147AAAE300180A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E40A02147AAAE300180A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E40A04147AAAE300180A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElevatorSimulation/ElevatorSimulation-Prefix.pch";
+				INFOPLIST_FILE = "ElevatorSimulation/ElevatorSimulation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E40A05147AAAE300180A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElevatorSimulation/ElevatorSimulation-Prefix.pch";
+				INFOPLIST_FILE = "ElevatorSimulation/ElevatorSimulation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E409E5147AAAE200180A39 /* Build configuration list for PBXProject "ElevatorSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E40A01147AAAE300180A39 /* Debug */,
+				55E40A02147AAAE300180A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E40A03147AAAE300180A39 /* Build configuration list for PBXNativeTarget "ElevatorSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E40A04147AAAE300180A39 /* Debug */,
+				55E40A05147AAAE300180A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E409E2147AAAE200180A39 /* Project object */;
+}
