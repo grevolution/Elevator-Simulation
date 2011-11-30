@@ -7,6 +7,8 @@
 //
 
 #import "ASAppDelegate.h"
+#import "Elevator.h"
+#import "ElevatorsUIController.h"
 
 @implementation ASAppDelegate
 
@@ -23,6 +25,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    ElevatorsUIController *controller = [[ElevatorsUIController alloc] init];
+    [self.window addSubview:controller.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

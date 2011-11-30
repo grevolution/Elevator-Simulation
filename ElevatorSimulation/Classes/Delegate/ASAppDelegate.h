@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ElevatorDelegate.h"
 
-@interface ASAppDelegate : UIResponder <UIApplicationDelegate>
+@class Elevator;
+
+@interface ASAppDelegate : UIResponder <UIApplicationDelegate> {
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
